@@ -1,0 +1,64 @@
+/*Selector {
+	Property: value;
+}*/
+
+*{
+	text-align: right;
+}
+
+body{
+	background-image: url(backgroundimage.png);
+	background-size: cover;
+}
+
+h2, p {
+	color: #0A1839;
+	background-color: rgba(78, 100, 142, 0.8);
+	text-align: center;
+	border: 3px solid #7788AA;
+	cursor: pointer;
+}
+
+h2:hover{
+	color: white;
+}
+
+li{
+	list-style: None;
+	display: inline-block;
+	color: white;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: #0A1839;
+}
+
+.webtext:first-child{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 3px solid grey;
+}
+
+.webtext:last-child{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 3px solid black;
+}
+
+.active{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 3px solid white;
+}
+
+#div1{
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2{
+	background: rgba(0, 255, 0, 0.2);
+}

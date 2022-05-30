@@ -1,0 +1,57 @@
+*{
+	text-align: right;
+}
+
+body{
+	background-image: url(backgroundimage.png);
+	background-size: cover;
+}
+
+h2{
+	color: #0A1839;
+	background-color: rgba(78, 100, 142, 0.8);
+	text-align: center;
+	border: 3px solid #7788AA;
+	cursor: pointer;
+}
+
+h2:hover{
+	color: white;
+}
+
+p{
+	color: white;
+	text-align: center;
+	background-color: rgba(78, 100, 142, 0.8);
+	/*text-decoration: underline;*/
+	text-transform: uppercase;
+	line-height: 60px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 125%;
+	font-family: 'Mukta', sans-serif;
+}
+
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
+li{
+	list-style: None;
+	display: inline-block;
+	color: white;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: #0A1839;
+}
